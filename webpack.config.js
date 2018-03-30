@@ -2,6 +2,6 @@ module.exports = {
     entry: './main',
     output: {
         filename: 'build.js',
-        library: 'main'
+        library: 'main, welclass'
     }
 };

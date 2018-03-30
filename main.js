@@ -6,10 +6,9 @@ var fio = document.getElementById("name");
 welcome(fio);
 
 let welclass = require('./welclass');
-welclass({firstName: "Vasya",
-    lastName: "Pupkin", 
-    age: "25"});
+var human = {firstName: "Vasya", lastName: "Pupkin", age: "25"};
+welclass (human);
 
 module.exports = {
-    welcome
+    welcome, welclass
 };

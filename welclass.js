@@ -1,5 +1,6 @@
 // Common JS
 module.exports = function(human) {
+    alert ('test 2');
     class Developer {
         constructor (firstName, lastName, age) {
             this.firstName = firstName;
@@ -11,6 +12,6 @@ module.exports = function(human) {
             alert(`${this.firstName} ${this.lastName} ${this.age} year`);
         }
     };
-    let developer = Developer(human);
+    let developer = new Developer(human);
     developer.sayHi();
 }
